@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/stop"
+    android:layout_width="match_parent"
+    android:layout_height="130dp">
+
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/songs_album_img"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        fresco:placeholderImage="@drawable/placeholder" />
+
+    <TextView
+        android:id="@+id/song_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/songs_album_img"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/songs_album_img"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:lines="1"
+        android:singleLine="true"
+        android:text="富士山下"
+        android:textSize="19sp"
+        tools:ignore="EllipsizeMaxLines" />
+
+    <TextView
+        android:id="@+id/song_artis_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/downloadbutton"
+        android:layout_toEndOf="@+id/songs_album_img"
+
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:lines="1"
+        android:singleLine="true"
+        android:text="陈奕迅"
+        tools:ignore="EllipsizeMaxLines" />
+
+    <TextView
+        android:id="@+id/song_album_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/songs_album_img"
+        android:layout_toEndOf="@+id/songs_album_img"
+
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:lines="1"
+        android:singleLine="true"
+        android:text="What's Going On…?"
+        tools:ignore="EllipsizeMaxLines" />
+
+
+    <Button
+        android:id="@+id/downloadbutton"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text="下载"
+
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/song_name"
+        android:layout_marginEnd="32dp"
+        />
+
+
+    <!--<SeekBar-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="20dp"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_below="@+id/songs_album_img" />-->
+
+
+</RelativeLayout>
