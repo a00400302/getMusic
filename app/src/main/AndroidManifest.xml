@@ -25,13 +25,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Activity.DetailActivity"
-            android:theme="@style/MyDialogStyle" />
-        <activity
-            android:name=".Activity.ArtistActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Activity.AlbumActivity" />
 
     </application>
 
