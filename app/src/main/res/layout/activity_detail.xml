@@ -48,6 +48,28 @@
         android:text="陈奕迅"
         tools:ignore="EllipsizeMaxLines" />
 
+
+    <TextView
+        android:id="@+id/sourceType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_toEndOf="@+id/songs_album_img"
+        android:layout_above="@id/song_artis_name"
+
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:lines="1"
+        android:singleLine="true"
+        tools:ignore="EllipsizeMaxLines"
+        android:text="网易" />
+
+
+
+
+
+
     <TextView
         android:id="@+id/song_album_name"
         android:layout_width="wrap_content"
@@ -74,6 +96,9 @@
         android:layout_below="@+id/song_name"
         android:layout_marginEnd="32dp"
         />
+
+
+
 
 
     <!--<SeekBar-->

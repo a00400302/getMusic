@@ -43,7 +43,6 @@ public class PlaceholderAdapter extends RecyclerView.Adapter<PlaceholderAdapter.
     }
 
     class Placeviewholder extends RecyclerView.ViewHolder{
-
         private TextView a;
 
         public Placeviewholder(View itemView) {

@@ -49,15 +49,6 @@
 
             <TextView
                 android:textColor="#000"
-                android:id="@+id/album_count"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignStart="@+id/album_time"
-                android:layout_below="@+id/album_time"
-                android:text="华星" />
-
-            <TextView
-                android:textColor="#000"
                 android:id="@+id/album_artis"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -66,15 +57,6 @@
                 android:layout_marginTop="12dp"
                 android:layout_toEndOf="@+id/imageView"
                 android:text="陈奕迅" />
-
-            <TextView
-                android:textColor="#000"
-                android:id="@+id/album_time"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignStart="@+id/album_artis"
-                android:layout_below="@+id/album_artis"
-                android:text="123123123" />
 
         </RelativeLayout>
 
@@ -85,25 +67,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/relativeLayout">
-
-            <TextView
-                android:textColor="#000"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_centerVertical="true"
-                android:text="顺序播放"
-                android:textSize="17sp" />
-
-            <TextView
-                android:textColor="#000"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:layout_centerVertical="true"
-                android:text="多选" />
-        </RelativeLayout>
+            android:layout_below="@+id/relativeLayout"/>
         </android.support.v7.widget.CardView>
 
     </android.support.design.widget.AppBarLayout>
